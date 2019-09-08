@@ -50,25 +50,25 @@ int main(void)
 			STEPPER_PORT &= ~(1 << IN2);
 			STEPPER_PORT &= ~(1 << IN3);
 			STEPPER_PORT &= ~(1 << IN4);
-			_delay_ms(4);					// wait 6 ms
+			_delay_ms(4);					// wait 4 ms
 		
 			STEPPER_PORT &= ~(1 << IN1);		
 			STEPPER_PORT |= (1 << IN2);		// IN2 to HIGH
 			STEPPER_PORT &= ~(1 << IN3);
 			STEPPER_PORT &= ~(1 << IN4);
-			_delay_ms(4);					// wait 6 ms
+			_delay_ms(4);					// wait 4 ms
 			
 			STEPPER_PORT &= ~(1 << IN1);
 			STEPPER_PORT &= ~(1 << IN2);		
 			STEPPER_PORT |= (1 << IN3);		// IN3 to HIGH
 			STEPPER_PORT &= ~(1 << IN4);
-			_delay_ms(4);					// wait 6 ms
+			_delay_ms(4);					// wait 4 ms
 			
 			STEPPER_PORT &= ~(1 << IN1);
 			STEPPER_PORT &= ~(1 << IN2);		
 			STEPPER_PORT &= ~(1 << IN3);
 			STEPPER_PORT |= (1 << IN4);		// IN4 to HIGH
-			_delay_ms(4);					// wait 6 ms	
+			_delay_ms(4);					// wait 4 ms	
 		}
 
 		_delay_ms(1000);
