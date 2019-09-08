@@ -109,7 +109,7 @@ int main(void)
 
 		_delay_ms(1000);
 
-		/* if we want to rotate the motor by a particular angle i.e 10 deg, use this formula (90/(360/512)) = 128 
+		/* if we want to rotate the motor by a particular angle i.e 90 deg, use this formula (90/(360/512)) = 128 
 		   if you want to rotate anti clockwise, just change the sequence queue 	
 		*/
 		for(int i = 0; i<=128; i++)
