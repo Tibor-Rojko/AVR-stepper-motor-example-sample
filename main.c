@@ -44,7 +44,7 @@ int main(void)
 		*/
 		for(int i = 0; i<=512; i++)
 		{
-			/*** to vary the RPM change delays beetween steps ***/
+			/*** to vary the RPM change delays between steps ***/
 
 			STEPPER_PORT |= (1 << IN1);		// IN1 to HIGH
 			STEPPER_PORT &= ~(1 << IN2);
@@ -80,7 +80,7 @@ int main(void)
 		*/
 		for(int i = 0; i<=512; i++)
 		{
-			/*** to vary the RPM change delays beetween steps ***/
+			/*** to vary the RPM change delays between steps ***/
 
 			STEPPER_PORT |= (1 << IN1);		// IN1 to HIGH
 			STEPPER_PORT |= (1 << IN2);		// IN2 to HIGH
@@ -114,7 +114,7 @@ int main(void)
 		*/
 		for(int i = 0; i<=128; i++)
 		{
-			/*** to vary the RPM change delays beetween steps ***/
+			/*** to vary the RPM change delays between steps ***/
 			STEPPER_PORT |= (1 << IN1);		// IN1 to HIGH
 			STEPPER_PORT &= ~(1 << IN2);
 			STEPPER_PORT &= ~(1 << IN3);
@@ -149,7 +149,7 @@ int main(void)
 		*/
 		for(int i = 0; i<=512; i++)
 		{
-			/*** to vary the RPM change delays beetween steps ***/
+			/*** to vary the RPM change delays between steps ***/
 			STEPPER_PORT |= (1 << IN1);		// IN1 to HIGH
 			STEPPER_PORT &= ~(1 << IN2);
 			STEPPER_PORT &= ~(1 << IN3);
@@ -207,7 +207,7 @@ int main(void)
 		*/
 		for(int i = 0; i<=256; i++)
 		{
-			/*** to vary the RPM change delays beetween steps ***/
+			/*** to vary the RPM change delays between steps ***/
 			STEPPER_PORT |= (1 << IN1);		// IN1 to HIGH
 			STEPPER_PORT &= ~(1 << IN2);
 			STEPPER_PORT &= ~(1 << IN3);
